@@ -2,13 +2,15 @@
 
 ## 📌 Project Overview
 
-This project predicts whether an employee is likely to stay with or leave an organization using Machine Learning.
+This project is a Machine Learning based Employee Attrition Prediction System.
 
-The project includes Exploratory Data Analysis (EDA), data preprocessing, model training, evaluation, and deployment using Streamlit.
+It predicts whether an employee is likely to **Stay** or **Leave** an organization based on employee-related factors.
+
+The project includes data preprocessing, Exploratory Data Analysis (EDA), Machine Learning model training, evaluation, and deployment using Streamlit.
 
 ## 🎯 Objective
 
-The main objective of this project is to predict employee attrition based on various employee-related factors.
+The main objective of this project is to help organizations identify employees who may be likely to leave and understand factors related to employee attrition.
 
 ## 🛠️ Technologies Used
 
@@ -23,7 +25,9 @@ The main objective of this project is to predict employee attrition based on var
 
 ## 🤖 Machine Learning
 
-The project uses a Machine Learning classification model to predict:
+This is a **classification problem**.
+
+The model predicts two classes:
 
 - Stayed
 - Left
@@ -32,16 +36,25 @@ The project uses a Machine Learning classification model to predict:
 
 1. Data Collection
 2. Data Cleaning
-3. Exploratory Data Analysis
+3. Exploratory Data Analysis (EDA)
 4. Data Preprocessing
 5. Feature Selection
 6. Model Training
 7. Model Evaluation
-8. Model Deployment using Streamlit
+8. Streamlit Deployment
 
-## 🚀 How to Run the Project
+## 📁 Project Files
 
-### 1. Clone the repository
+| File | Description |
+|---|---|
+| `app.py` | Streamlit application |
+| `employee_attrition_model.pkl` | Trained Machine Learning model |
+| `requirements.txt` | Required Python libraries |
+| `README.md` | Project documentation |
+
+## 🚀 How to Run
+
+### Install the required libraries
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_LINK
+pip install -r requirements.txt
